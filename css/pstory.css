@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+nav{
+	width: 1920px;
+	height: 90px;
+	background:rgba(255,255,255);
+
+
+}
+.nav{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+	/*background-color: red;*/
+
+}
+.nav-img{
+	margin-top: 30px;
+	float: left;
+}
+.nav-ul{
+	margin-left: 60px;
+	float: left;
+	margin-top: 40px;
+
+}
+.nav-ul>li{
+	height: 40px;
+	border-bottom: 1px solid transparent;
+	float: left;
+	color: white;
+	font-size: 16px;
+	margin-right: 50px;
+}
+.nav-ul>li:hover{
+	border-bottom: 1px solid #00a0e6;
+	
+}
+.nav-ul>li>a:hover{
+	color: #00a0e6;
+}
+.nav-ul2{
+	margin-top: 40px;
+	float: right;
+}
+.nav-ul2>li{
+	float: left;
+	color: #333;
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+
+.bgimg{
+    overflow: hidden;
+}
+.bgimg>img{
+
+  cursor: pointer;
+    transition: all 2s;
+}
+.bgimg>img:hover{
+	-webkit-transform:scale(1.1,1.1);
+}
+
+/*navjieshu*/
+
+section{
+	width: 1920px;
+	margin-top: 100px;
+}
+.sec_top{
+	width:1200px; 
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.about_hf{
+	font-size: 36px;
+	color: #333;
+}
+.hf_lead{
+	font-size: 20px;
+	color: #ccc;
+	margin-top: 10px;
+}
+.sec{
+	margin-top: 80px;
+	position: relative;
+}
+.sec_nav{
+	width: 1200px;
+	margin: 0 auto
+}
+.sec_nav_ul{
+	margin: 0 auto;
+	width: 683px;
+	overflow: hidden;
+}
+.sec_nav_ul>li{
+	font-size: 16px;
+	color: #333;
+	float: left;
+	height: 24px;
+	border-bottom: 1px solid transparent;
+	margin-right: 68px;
+}
+.sec_nav_ul>li:hover{
+	border-bottom: 1px solid #00a0e6;
+	
+}
+.sec_nav_ul>li:hover{
+	color: #00a0e6;
+}
+.sec_pic{
+	background-color: #f0f5f7;
+	width: 1920px;
+	height: 890px;
+}
+.sec_pro{
+	width: 1200px;
+	margin: auto;
+	padding-top: 60px;
+	display: none;
+	overflow: hidden;
+}
+.zhezhao{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 696px;
+	height: 462px;
+	/*text-align: center;*/
+	/* line-height: 462px; */
+	background:rgba(5,8,6, 0.4);
+	display: none;
+}
+.sec_pro_pic:hover .zhezhao{
+	display: block;
+}
+.sec_pro_pic{
+	width: 696px;
+	height: 462px;
+	float: left;
+	position: relative;
+}
+
+.sec_pro_pic2{
+	width: 500px;
+	height: 462px;
+	float: left;
+	margin-left: 4px;
+	overflow: hidden;
+}
+.sec_pro_pic2>img{
+	transition:all 2s;
+}
+.sec_pro_pic2>img:hover{
+	-webkit-transform:scale(1.1,1.1);	
+}
+.zhezhao>p{
+	color: white;
+}
+.p1{
+	width: 495px;
+	height: 75px;
+	margin:auto;
+	margin-top: 20px;
+	line-height: 25px;
+}
+.sec_pro_pic3{
+	width: 397px;
+	height: 300px;
+	float: left;
+	margin-right: 4.5px;
+	margin-top: 4px;
+	overflow: hidden;
+}
+.sec_pro_pic3>img{
+	transition:all 2s;
+}
+.sec_pro_pic3>img:hover{
+	-webkit-transform:scale(1.1,1.1);	
+}
+.sec_hon{
+	width: 1163px;
+	margin: 0 auto;
+}
+
+.sec_hon>img{
+	margin-right: 110px;
+}
+.sec_trans{
+	width: 1104px;
+	overflow: hidden;
+
+}
+.sec_trans>div{
+	float: left;
+}
+.sec_wenhua{
+	width: 549px;
+	height: 366px;
+}
+.sec_trans_word{
+	width: 549px;
+	height: 366px;
+}
+.sec_trans_word>p{
+	margin-left: 60px;
+}
+.sec_wish{
+	width: 528px;
+	height: 688px;
+	float: left;
+}
+.sec_wish_right{
+	
+	/*margin-left: 4px;*/
+}
+.sec_wish_right>img{
+	display: block;
+	float: left;
+	margin-left: 4px;
+	margin-bottom: 4px;
+}
+.wechat{
+	width: 138px;
+	height: 229px;
+	position: fixed;
+	position: absolute;
+	z-index: 2;
+	left: 1389px;
+	top:1715px;
+}
+.bottom{
+	width: 1920px;
+
+	
+}
+.bottompx{
+	width: 1200px;
+	margin: auto;
+	margin-top: 70px;
+	overflow: hidden;
+}
+.bot_pic{
+	overflow: hidden;
+}
+.bot_ul{
+	float: left;
+	margin-left: 90px;
+	overflow: hidden;
+}
+.bot_ul>li{
+	float: left;
+	margin-left: 35px;
+	margin-top: 15px;
+	color: #a9a9a9;
+}
+.img1{
+	float: left;
+}
+.add{
+	padding-top: 40px;
+	width: 434px;
+	margin: auto;
+
+}
+
+.add>span{
+	margin-left: 10px;
+	color: #a9a9a9;
+}
+.cont{
+	width: 501px;
+	padding-top: 20px;
+	margin: auto;
+	overflow: hidden;
+}
+.cont1{
+	float: left;
+	margin-right: 40px;
+}
+.cont1>span{
+	color: #a9a9a9;
+	margin-left:10px;
+}
+.banquan{
+	color: #a9a9a9;
+	text-align: center;
+	margin-top: 60px;
+}

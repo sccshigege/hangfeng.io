@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.background{
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	/*background: url(../img/首页.png);*/
+}
+.banner{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
+.background-img{
+	
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
+.background-img>img{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
+
+.nav{
+	width: 1920px;
+	height: 90px;
+	
+	background: rgba(0,0,0 0.1);
+	position: absolute;
+	z-index: 99;
+}
+nav{		
+	width: 1200px;
+	margin: 0 auto;
+	/*background: red;*/
+	overflow: hidden;
+
+	/*padding-top: 30px;*/
+}
+.nav-img{
+	float: left;
+	margin-top: 30px;
+}
+
+.nav-ul{
+	margin-left: 60px;
+	float: left;
+	margin-top: 40px;
+}
+.nav-ul>li{
+	
+	float: left;
+	color: white;
+	font-size: 16px;
+	margin-right: 50px;
+}
+.nav-ul2{
+	margin-top: 40px;
+	float: right;
+}
+.nav-ul2>li{
+	float: left;
+	color: white;
+	font-size: 14px;
+	margin-left: 15px;
+	
+}
+
+.word1{
+	position: absolute;
+	z-index: 3;
+	font-size: 54px;
+	color: white;
+	left: 906px;
+	top: 314px;
+}
+.word2{
+	position: absolute;
+	z-index: 3;
+	font-size: 84px;
+	color: white;
+	left: 663px;
+	top: 389px;
+}
+.word3{
+	position: absolute;
+	z-index: 3;
+	left: 896px;
+	top: 513px;
+	color: white;
+	font-size: 14px;
+	width: 130px;
+	height: 34px;
+	text-align: center;
+	line-height:34px;
+	border: 2px solid white;
+}
+.square{
+	position: absolute;
+	z-index: 99;
+	left: 772px;
+	top: 1006px;
+}
+.square>span{
+	display: inline-block;
+	width: 88px;
+	height: 6px;
+	margin-right: 10px;
+	background-color: #c3c3bc;
+
+}
